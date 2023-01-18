@@ -17,7 +17,7 @@
       row-gap: 48px;
       margin-bottom: 73px;
     }}
-    @media screen and (max-width: 320px){
+    @media screen and (max-width: 490px){
       .place {
         grid-template-areas:
         "title"

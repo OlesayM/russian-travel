@@ -14,7 +14,12 @@ color: #FFFFFF;
 position: relative;
 z-index: 2;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 507px){
+  .cover__title {
+  font-size: 50px;
+}
+}
+@media screen and (max-width: 355px){
   .cover__title {
     max-width: 288px;
     min-height: 70px;
