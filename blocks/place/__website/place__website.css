@@ -7,8 +7,9 @@
 }
 @media screen and (max-width: 768px) {
   .place__website {
-      max-width: 352px;
+      max-width: 353px;
       min-height: 46px;
+      gap: 14px;
   }
 }
 @media screen and (max-width: 320px) {
