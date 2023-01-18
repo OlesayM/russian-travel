@@ -6,22 +6,24 @@
   justify-content: space-between;
   margin: 92px 48px 24px 48px;
   outline: 1px solid red;
-  
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .footer {
-    max-width: 928px;
-  }}
-  @media screen and (max-width: 768px){
-    .footer {
+      max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
       max-width: 720px;
       margin: 88px 24px 24px 24px;
-    }}
-   
-    @media screen and (max-width: 600px){
-      .footer {
-        max-width: 186px;
-        min-height: 310px;
-        flex-direction: column;
-        margin: 64px 118px 24px 16px;
-      }}
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+      max-width: 186px;
+      min-height: 310px;
+      flex-direction: column;
+      margin: 64px 118px 24px 16px;
+  }
+}

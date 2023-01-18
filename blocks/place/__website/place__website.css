@@ -2,15 +2,17 @@
   grid-area: website;
   display: flex;
   flex-direction: column;
-  gap:12px;
+  gap: 12px;
   justify-content: end;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place__website {
-    max-width: 352px;
-    min-height: 46px;
-  }}
-  @media screen and (max-width: 320px){
-    .place__website {
-      gap:14px;
-    }}
+      max-width: 352px;
+      min-height: 46px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__website {
+      gap: 14px;
+  }
+}

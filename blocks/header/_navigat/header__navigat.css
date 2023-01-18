@@ -1,20 +1,21 @@
-.header__navigat{
+.header__navigat {
   display: flex;
   align-items: flex-end;
   column-gap: 18px;
+  margin-bottom: 2px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .header__navigat {
-    padding: 0;
-
-}}
-@media screen and (max-width: 768px){
+      padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
   .header__navigat {
-    padding: 20px 0 9px 0;
-
-}}
-@media screen and (max-width: 320px){
+      padding: 20px 0 9px 0;
+  }
+}
+@media screen and (max-width: 320px) {
   .header__navigat {
-    padding: 16px 0 10px 0;
-
-}}
+      padding: 16px 0 10px 0;
+  }
+}

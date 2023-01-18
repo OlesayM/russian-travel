@@ -9,13 +9,15 @@
   list-style-type: none;
   text-align: start;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .intro__list {
-    max-width: 720px;
-    margin: 30px 0 0 0;
-}}
-@media screen and (max-width: 320px){
+      max-width: 720px;
+      margin: 30px 0 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
   .intro__list {
-    max-width: 288px;
-    margin: 34px 0 0 0;
-}}
+      max-width: 288px;
+      margin: 34px 0 0 0;
+  }
+}

@@ -5,28 +5,27 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-/* or 104% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .lead__title {
-    font-size: 76px;
-  line-height: 80px;
-/* or 104% */
-}}
-@media screen and (max-width: 540px){
+      font-size: 76px;
+      line-height: 80px;
+  }
+}
+@media screen and (max-width: 540px) {
   .lead__title {
       font-size: 50px;
-    line-height: 54px;
-}}
+      line-height: 54px;
+  }
+}
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .lead__title {
-    max-width: 288px;
-    margin: 0 auto 16px auto;
-    font-size: 40px;
-    line-height: 44px;
-/* or 110% */
-
-}}
+      max-width: 288px;
+      margin: 0 auto 16px auto;
+      font-size: 40px;
+      line-height: 44px;
+  }
+}

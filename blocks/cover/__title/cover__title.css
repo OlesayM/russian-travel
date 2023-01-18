@@ -3,29 +3,26 @@
   min-height: 152px;
   margin: 0 0 32px 0;
   font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-/* or 106% */
-
-text-align: center;
-
-color: #FFFFFF;
-position: relative;
-z-index: 2;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
 }
-@media screen and (max-width: 507px){
+@media screen and (max-width: 507px) {
   .cover__title {
-  font-size: 50px;
+      font-size: 50px;
+  }
 }
-}
-@media screen and (max-width: 355px){
+@media screen and (max-width: 355px) {
   .cover__title {
-    max-width: 288px;
-    min-height: 70px;
-    font-size: 32px;
-    line-height: 35px;
-    /* or 109% */
-    text-align: center;
-    margin: 33px 16px 16px 16px;
-  }}
+      max-width: 288px;
+      min-height: 70px;
+      font-size: 32px;
+      line-height: 35px;
+      text-align: center;
+      margin: 33px 16px 16px 16px;
+  }
+}
