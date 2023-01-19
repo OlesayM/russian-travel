@@ -7,9 +7,18 @@
   color: #ffffff;
   text-decoration: none;
 }
+.header__lang-link:hover {
+  opacity: 0.8;
+}
 @media screen and (max-width: 1024px) {
   .header__lang-link {
       margin: 0 0 5px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+      padding: 0;
+      margin: 0;
   }
 }
 @media screen and (max-width: 320px) {

@@ -21,7 +21,8 @@
       margin-bottom: 73px;
   }
 }
-@media screen and (max-width: 588px) {
+
+@media screen and (max-width: 630px) {
   .place {
       grid-template-columns: 320px;
       grid-template-areas:

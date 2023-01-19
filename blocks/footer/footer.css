@@ -5,13 +5,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 92px 48px 24px 48px;
-  outline: 1px solid red;
 }
+
 @media screen and (max-width: 1024px) {
   .footer {
       max-width: 928px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer {
       max-width: 720px;
