@@ -15,7 +15,6 @@
 }
 
 .cover__overlay:hover::before {
-  content: "";
   opacity: 0.8;
 }
 
